@@ -89,6 +89,7 @@ for(let i = 0; i< questions.length; i++){
   } else{
     cl("[IN BATMAN'S VOICE] NOT TRUE");
   }
+  cl(`Current Score: ${score}`)
 }
 
 cl(chalk`\n{yellow ------------------------------------} \n`);
